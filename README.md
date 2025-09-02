@@ -19,7 +19,8 @@
 
 ### 1. Clone the Repository
 
-git clone https://github.com/<your-username>/GamerIQ.git
+git clone https://github.com/sarthakdahiya8/GamerIQ.git
+
 cd GamerIQ
 
 ### 2. Set up a Python Virtual Environment
@@ -27,8 +28,11 @@ cd GamerIQ
 python -m venv venv
 
 For Windows:
+
 venv\Scripts\activate
+
 For macOS/Linux:
+
 source venv/bin/activate
 
 ### 3. Install Project Dependencies
@@ -52,6 +56,7 @@ python models/player_churn_prediction.py
 python api/flask_api.py
 
 *Test the API health endpoint in your browser:*
+
 http://127.0.0.1:5000/health
 
 
